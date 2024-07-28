@@ -40,7 +40,7 @@ class RequestSentinelInterceptor: URLProtocol {
 
             // Only log requets that are not for RequestSentinel
             if (RequestSentinel.shared.debug ?? false) {
-                print("Request Sentinel | Outoing request:", self.request);
+                print("Request Sentinel | Outgoing request:", self.request);
             }
 
             // Send data to a background request to send to RequestSentinel api
