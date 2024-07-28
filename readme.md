@@ -12,4 +12,13 @@ Instructions
 
 ### Setup
 
-`RequestSentinel.shared.initialize(apiKey: <API_KEY>, appVersion: <YOUR_APP_VERSION>, appEnvironment: <YOUR_APP_ENVIRONMENT>)`
+```swift
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {      
+        RequestSentinel.shared.initialize(apiKey: "<API_KEY>",
+                                          appVersion: "<YOUR_APP_VERSION>",
+                                          appEnvironment: "<YOUR_APP_ENVIRONMENT>")
+       ....
+    }
+}
+```
