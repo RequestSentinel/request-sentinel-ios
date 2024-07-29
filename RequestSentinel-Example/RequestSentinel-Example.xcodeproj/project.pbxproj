@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DEDC6C2C579BA80086DE5F /* RequestSentinel_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEDC6B2C579BA80086DE5F /* RequestSentinel_ExampleApp.swift */; };
+		A7DEDC6E2C579BA80086DE5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEDC6D2C579BA80086DE5F /* ContentView.swift */; };
+		A7DEDC702C579BAB0086DE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DEDC6F2C579BAB0086DE5F /* Assets.xcassets */; };
+		A7DEDC742C579BAB0086DE5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DEDC732C579BAB0086DE5F /* Preview Assets.xcassets */; };
+		A7DEDC7E2C579BAB0086DE5F /* RequestSentinel_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEDC7D2C579BAB0086DE5F /* RequestSentinel_ExampleTests.swift */; };
+		A7DEDC882C579BAB0086DE5F /* RequestSentinel_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEDC872C579BAB0086DE5F /* RequestSentinel_ExampleUITests.swift */; };
+		A7DEDC8A2C579BAB0086DE5F /* RequestSentinel_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEDC892C579BAB0086DE5F /* RequestSentinel_ExampleUITestsLaunchTests.swift */; };
+		A7DEDC982C579C120086DE5F /* RequestSentinel in Frameworks */ = {isa = PBXBuildFile; productRef = A7DEDC972C579C120086DE5F /* RequestSentinel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7DEDC7A2C579BAB0086DE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DEDC602C579BA80086DE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DEDC672C579BA80086DE5F;
+			remoteInfo = "RequestSentinel-Example";
+		};
+		A7DEDC842C579BAB0086DE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DEDC602C579BA80086DE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DEDC672C579BA80086DE5F;
+			remoteInfo = "RequestSentinel-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7DEDC682C579BA80086DE5F /* RequestSentinel-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RequestSentinel-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DEDC6B2C579BA80086DE5F /* RequestSentinel_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentinel_ExampleApp.swift; sourceTree = "<group>"; };
+		A7DEDC6D2C579BA80086DE5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7DEDC6F2C579BAB0086DE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7DEDC712C579BAB0086DE5F /* RequestSentinel_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RequestSentinel_Example.entitlements; sourceTree = "<group>"; };
+		A7DEDC732C579BAB0086DE5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7DEDC792C579BAB0086DE5F /* RequestSentinel-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RequestSentinel-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DEDC7D2C579BAB0086DE5F /* RequestSentinel_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentinel_ExampleTests.swift; sourceTree = "<group>"; };
+		A7DEDC832C579BAB0086DE5F /* RequestSentinel-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RequestSentinel-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DEDC872C579BAB0086DE5F /* RequestSentinel_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentinel_ExampleUITests.swift; sourceTree = "<group>"; };
+		A7DEDC892C579BAB0086DE5F /* RequestSentinel_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentinel_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DEDC652C579BA80086DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DEDC982C579C120086DE5F /* RequestSentinel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC762C579BAB0086DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC802C579BAB0086DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7DEDC5F2C579BA80086DE5F = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC6A2C579BA80086DE5F /* RequestSentinel-Example */,
+				A7DEDC7C2C579BAB0086DE5F /* RequestSentinel-ExampleTests */,
+				A7DEDC862C579BAB0086DE5F /* RequestSentinel-ExampleUITests */,
+				A7DEDC692C579BA80086DE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DEDC692C579BA80086DE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC682C579BA80086DE5F /* RequestSentinel-Example.app */,
+				A7DEDC792C579BAB0086DE5F /* RequestSentinel-ExampleTests.xctest */,
+				A7DEDC832C579BAB0086DE5F /* RequestSentinel-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DEDC6A2C579BA80086DE5F /* RequestSentinel-Example */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC6B2C579BA80086DE5F /* RequestSentinel_ExampleApp.swift */,
+				A7DEDC6D2C579BA80086DE5F /* ContentView.swift */,
+				A7DEDC6F2C579BAB0086DE5F /* Assets.xcassets */,
+				A7DEDC712C579BAB0086DE5F /* RequestSentinel_Example.entitlements */,
+				A7DEDC722C579BAB0086DE5F /* Preview Content */,
+			);
+			path = "RequestSentinel-Example";
+			sourceTree = "<group>";
+		};
+		A7DEDC722C579BAB0086DE5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC732C579BAB0086DE5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7DEDC7C2C579BAB0086DE5F /* RequestSentinel-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC7D2C579BAB0086DE5F /* RequestSentinel_ExampleTests.swift */,
+			);
+			path = "RequestSentinel-ExampleTests";
+			sourceTree = "<group>";
+		};
+		A7DEDC862C579BAB0086DE5F /* RequestSentinel-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEDC872C579BAB0086DE5F /* RequestSentinel_ExampleUITests.swift */,
+				A7DEDC892C579BAB0086DE5F /* RequestSentinel_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "RequestSentinel-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DEDC672C579BA80086DE5F /* RequestSentinel-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DEDC8D2C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-Example" */;
+			buildPhases = (
+				A7DEDC642C579BA80086DE5F /* Sources */,
+				A7DEDC652C579BA80086DE5F /* Frameworks */,
+				A7DEDC662C579BA80086DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RequestSentinel-Example";
+			packageProductDependencies = (
+				A7DEDC972C579C120086DE5F /* RequestSentinel */,
+			);
+			productName = "RequestSentinel-Example";
+			productReference = A7DEDC682C579BA80086DE5F /* RequestSentinel-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DEDC782C579BAB0086DE5F /* RequestSentinel-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DEDC902C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-ExampleTests" */;
+			buildPhases = (
+				A7DEDC752C579BAB0086DE5F /* Sources */,
+				A7DEDC762C579BAB0086DE5F /* Frameworks */,
+				A7DEDC772C579BAB0086DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DEDC7B2C579BAB0086DE5F /* PBXTargetDependency */,
+			);
+			name = "RequestSentinel-ExampleTests";
+			productName = "RequestSentinel-ExampleTests";
+			productReference = A7DEDC792C579BAB0086DE5F /* RequestSentinel-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7DEDC822C579BAB0086DE5F /* RequestSentinel-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DEDC932C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-ExampleUITests" */;
+			buildPhases = (
+				A7DEDC7F2C579BAB0086DE5F /* Sources */,
+				A7DEDC802C579BAB0086DE5F /* Frameworks */,
+				A7DEDC812C579BAB0086DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DEDC852C579BAB0086DE5F /* PBXTargetDependency */,
+			);
+			name = "RequestSentinel-ExampleUITests";
+			productName = "RequestSentinel-ExampleUITests";
+			productReference = A7DEDC832C579BAB0086DE5F /* RequestSentinel-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DEDC602C579BA80086DE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A7DEDC672C579BA80086DE5F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A7DEDC782C579BAB0086DE5F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7DEDC672C579BA80086DE5F;
+					};
+					A7DEDC822C579BAB0086DE5F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7DEDC672C579BA80086DE5F;
+					};
+				};
+			};
+			buildConfigurationList = A7DEDC632C579BA80086DE5F /* Build configuration list for PBXProject "RequestSentinel-Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DEDC5F2C579BA80086DE5F;
+			packageReferences = (
+				A7DEDC962C579C120086DE5F /* XCRemoteSwiftPackageReference "request-sentinel-swift" */,
+			);
+			productRefGroup = A7DEDC692C579BA80086DE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DEDC672C579BA80086DE5F /* RequestSentinel-Example */,
+				A7DEDC782C579BAB0086DE5F /* RequestSentinel-ExampleTests */,
+				A7DEDC822C579BAB0086DE5F /* RequestSentinel-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DEDC662C579BA80086DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DEDC742C579BAB0086DE5F /* Preview Assets.xcassets in Resources */,
+				A7DEDC702C579BAB0086DE5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC772C579BAB0086DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC812C579BAB0086DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DEDC642C579BA80086DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DEDC6E2C579BA80086DE5F /* ContentView.swift in Sources */,
+				A7DEDC6C2C579BA80086DE5F /* RequestSentinel_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC752C579BAB0086DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DEDC7E2C579BAB0086DE5F /* RequestSentinel_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEDC7F2C579BAB0086DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DEDC882C579BAB0086DE5F /* RequestSentinel_ExampleUITests.swift in Sources */,
+				A7DEDC8A2C579BAB0086DE5F /* RequestSentinel_ExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DEDC7B2C579BAB0086DE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DEDC672C579BA80086DE5F /* RequestSentinel-Example */;
+			targetProxy = A7DEDC7A2C579BAB0086DE5F /* PBXContainerItemProxy */;
+		};
+		A7DEDC852C579BAB0086DE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DEDC672C579BA80086DE5F /* RequestSentinel-Example */;
+			targetProxy = A7DEDC842C579BAB0086DE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7DEDC8B2C579BAB0086DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7DEDC8C2C579BAB0086DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A7DEDC8E2C579BAB0086DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RequestSentinel-Example/RequestSentinel_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RequestSentinel-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DEDC8F2C579BAB0086DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RequestSentinel-Example/RequestSentinel_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RequestSentinel-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7DEDC912C579BAB0086DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RequestSentinel-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RequestSentinel-Example";
+			};
+			name = Debug;
+		};
+		A7DEDC922C579BAB0086DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RequestSentinel-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RequestSentinel-Example";
+			};
+			name = Release;
+		};
+		A7DEDC942C579BAB0086DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RequestSentinel-Example";
+			};
+			name = Debug;
+		};
+		A7DEDC952C579BAB0086DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDHDNWL7CK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "requestsentinel.RequestSentinel-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RequestSentinel-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DEDC632C579BA80086DE5F /* Build configuration list for PBXProject "RequestSentinel-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DEDC8B2C579BAB0086DE5F /* Debug */,
+				A7DEDC8C2C579BAB0086DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DEDC8D2C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DEDC8E2C579BAB0086DE5F /* Debug */,
+				A7DEDC8F2C579BAB0086DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DEDC902C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DEDC912C579BAB0086DE5F /* Debug */,
+				A7DEDC922C579BAB0086DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DEDC932C579BAB0086DE5F /* Build configuration list for PBXNativeTarget "RequestSentinel-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DEDC942C579BAB0086DE5F /* Debug */,
+				A7DEDC952C579BAB0086DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7DEDC962C579C120086DE5F /* XCRemoteSwiftPackageReference "request-sentinel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RequestSentinel/request-sentinel-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7DEDC972C579C120086DE5F /* RequestSentinel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DEDC962C579C120086DE5F /* XCRemoteSwiftPackageReference "request-sentinel-swift" */;
+			productName = RequestSentinel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7DEDC602C579BA80086DE5F /* Project object */;
+}

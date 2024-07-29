@@ -1,0 +1,15 @@
+{
+  "originHash" : "310bf1f287380d221d4984347aadfb1432c1bfe1dcdd4fdbc331799aaa2e17f1",
+  "pins" : [
+    {
+      "identity" : "request-sentinel-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RequestSentinel/request-sentinel-swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7333f28af85eb2363b6d1ecf475d2d83a5c8f4ca"
+      }
+    }
+  ],
+  "version" : 3
+}
