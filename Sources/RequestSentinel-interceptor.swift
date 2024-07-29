@@ -1,6 +1,6 @@
 //
 //  RequestSentinel-Interceptor.swift
-//  request-sentinel-ios
+//  request-sentinel-swift
 //
 //  Created by Umar Nizamani on 19/07/2024.
 //
